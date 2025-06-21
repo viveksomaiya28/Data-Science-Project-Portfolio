@@ -121,12 +121,11 @@ Diabetes-Prediction-Project/
 - **Performance (threshold=0.4):**
 - Recall: 0.836
 - F1-Score: 0.687
-- **Confusion Matrix:**
 
-- **Feature Importance:**
+ **Feature Importance:**
 - Top features: Glucose (0.197), Glucose_Insulin_Ratio (0.151), Age (0.142).
 - Validates the engineered feature (`Glucose_Insulin_Ratio`) and biological relevance of Glucose.
-- **Insights:**
+ **Insights:**
 - Best overall model (highest ROC-AUC: 0.831, balanced metrics).
 - Threshold adjustment increased recall to 0.836, reducing false negatives to 9, ideal for medical use.
 - Robust to non-linear patterns and feature interactions.
