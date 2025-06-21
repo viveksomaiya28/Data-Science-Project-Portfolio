@@ -48,13 +48,13 @@ Diabetes-Prediction-Project/
 
 ## Methodology
 
-### 1. Data Loading (`01_data_loading.ipynb`)
+### 1. Data Loading 
 
 - Loaded dataset using Pandas.
 - Inspected structure (768 rows, 9 columns).
 - Identified zeros in Glucose, BloodPressure, SkinThickness, Insulin, BMI.
 
-### 2. Exploratory Data Analysis (`02_eda.ipynb`)
+### 2. Exploratory Data Analysis 
 
 - **Summary Statistics:** Revealed zeros (e.g., 48.7% in Insulin) and outliers (e.g., Insulin max=846).
 - **Class Distribution:** 65% non-diabetic, 35% diabetic (imbalanced).
@@ -64,7 +64,7 @@ Diabetes-Prediction-Project/
   - Correlation Heatmap: Glucose-Outcome correlation = 0.47.
   - Zero Analysis: High zero proportions in Insulin (48.7%) and SkinThickness (29.6%).
 
-### 3. Feature Engineering (`03_feature_engineering.ipynb`)
+### 3. Feature Engineering 
 
 - **Zero Handling:** Replaced zeros with median values.
 - **Outlier Treatment:** Capped outliers using IQR method (e.g., Insulin max reduced to 135.875).
@@ -74,7 +74,7 @@ Diabetes-Prediction-Project/
 - **Scaling:** Standardized numeric features; one-hot encoded `BMI_Category`.
 - **Output:** Saved processed dataset (`processed_diabetes.csv`).
 
-### 4. Modeling (`04_modeling.ipynb`)
+### 4. Modeling )
 
 - **Train-Test Split:** 80% train (614 rows), 20% test (154 rows).
 - **Class Imbalance:** Applied SMOTE to balance training data (802 rows, 50:50).
