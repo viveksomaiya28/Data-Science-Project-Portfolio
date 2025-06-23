@@ -1,4 +1,7 @@
 # Predictive Maintenance with NASA Turbofan Jet Engine Dataset
+## File Links
+https://drive.google.com/drive/folders/15auZkVkV6vAInt_z9dIgOI-IFea-Xtn3?usp=drive_link
+- The datasets are in the 'data' folder, once you click on the link.
 
 ## Overview
 
@@ -90,12 +93,9 @@ This project predicts the **Remaining Useful Life (RUL)** of turbofan jet engine
 | Feature              | Importance |
 |----------------------|------------|
 | sensor4_roll_mean    | 46.5%      |
-| sensor9_roll_mean    | ✓ Significant |
-| sensor21_roll_mean   | ✓ Significant |
+| sensor9_roll_mean    | 8.2%       |
+| sensor21_roll_mean   | 7.34%      |
 
-![Feature Importance](plots/feature_importance.png)
-
----
 
 ## Deployment
 
@@ -112,4 +112,5 @@ This project predicts the **Remaining Useful Life (RUL)** of turbofan jet engine
 ---
 
 ## File Links
-
+https://drive.google.com/drive/folders/15auZkVkV6vAInt_z9dIgOI-IFea-Xtn3?usp=drive_link
+- The datasets are in the 'data' folder, once you click on the link.
